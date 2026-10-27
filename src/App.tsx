@@ -13,11 +13,12 @@ import AddJobPage from './pages/AddJobPage';
 import JobDetails from './components/layouts/JobDetails';
 import JobForm from './components/layouts/JobForm';
 import NotFoundPage from './pages/NotFoundPage';
+import type { Job, NewJob } from './types/job';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   // Helpers to Add/Update/Delete Job
-  async function addJob(newJob) {
+  async function addJob(newJob: NewJob): Promise<void> {
     try {
       const response = await fetch('http://localhost:3000/jobs', {
         method: 'POST',
@@ -28,26 +29,26 @@ const App = () => {
       });
       if (!response.ok) throw new Error('Post Request Failed...');
       toast.success('New Job added successfully...');
-    } catch (err) {
+    } catch (err: unknown) {
       toast.error('Adding New Job Failed...');
-      console.error(err.message);
+      console.error(err instanceof Error ? err.message : String(err));
     }
   }
 
-  async function deleteJob(id) {
+  async function deleteJob(id: string): Promise<void> {
     try {
       const res = await fetch(`http://localhost:3000/jobs/${id}`, {
         method: 'DELETE',
       });
       if (!res.ok) throw new Error('Delete Request Failed...');
       toast.success('Job Deleted successfully...');
-    } catch (err) {
+    } catch (err: unknown) {
       toast.error('Unable to delete this job, try again...');
-      console.error(err.message);
+      console.error(err instanceof Error ? err.message : String(err));
     }
   }
 
-  async function editJob(updatedJob, id) {
+  async function editJob(updatedJob: Partial<Job> | NewJob, id: string): Promise<void> {
     try {
       const response = await fetch(`http://localhost:3000/jobs/${id}`, {
         method: 'PATCH',
@@ -58,9 +59,9 @@ const App = () => {
       });
       if (!response.ok) throw new Error('Update Request Failed...');
       toast.success('Job updated successfully...');
-    } catch (err) {
+    } catch (err: unknown) {
       toast.error('Job updation failed, try again...');
-      console.error(err.message);
+      console.error(err instanceof Error ? err.message : String(err));
     }
   }
 

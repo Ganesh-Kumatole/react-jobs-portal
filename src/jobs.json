@@ -11,7 +11,7 @@
         "name": "NewTek Solutions",
         "description": "NewTek Solutions builds web apps and digital experiences for enterprise clients.",
         "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
+        "contactPhone": "+15555555555"
       }
     },
     {
@@ -25,21 +25,21 @@
         "name": "BrightStart Labs",
         "description": "A small startup focused on developer tools and education.",
         "contactEmail": "hello@brightstart.io",
-        "contactPhone": "555-111-2222"
+        "contactPhone": "+15551112222"
       }
     },
     {
       "id": "3",
       "title": "Full Stack Developer (React/Node)",
       "type": "Full-Time",
-      "description": "Build and maintain web services and front-end UI, implement robust REST APIs, and deploy services to cloud infrastructure. You will work across the stack — from database schema design to client-side performance optimizations — and help improve developer tooling and CI/CD workflows.",
+      "description": "Build and maintain web services and front-end UI, implement robust REST APIs, and deploy services to cloud infrastructure. You will work across the stack \u2014 from database schema design to client-side performance optimizations \u2014 and help improve developer tooling and CI/CD workflows.",
       "location": "San Francisco, CA",
       "salary": "$60K - $70K",
       "company": {
         "name": "CloudWave Inc.",
         "description": "CloudWave provides cloud-native solutions for scale-ups.",
         "contactEmail": "jobs@cloudwave.com",
-        "contactPhone": "555-222-3333"
+        "contactPhone": "+15552223333"
       }
     },
     {
@@ -53,7 +53,7 @@
         "name": "PixelCraft",
         "description": "PixelCraft focuses on beautiful, accessible web products.",
         "contactEmail": "careers@pixelcraft.design",
-        "contactPhone": "555-333-4444"
+        "contactPhone": "+15553334444"
       }
     },
     {
@@ -67,7 +67,7 @@
         "name": "AppSpring",
         "description": "AppSpring delivers high-quality mobile applications for consumer brands.",
         "contactEmail": "jobs@appspring.com",
-        "contactPhone": "555-444-5555"
+        "contactPhone": "+15554445555"
       }
     },
     {
@@ -81,7 +81,7 @@
         "name": "SpeedyStack",
         "description": "SpeedyStack helps companies improve web performance at scale.",
         "contactEmail": "talent@speedystack.com",
-        "contactPhone": "555-666-7777"
+        "contactPhone": "+15556667777"
       }
     },
     {
@@ -95,7 +95,7 @@
         "name": "Inclusive Web Co.",
         "description": "Consulting firm specializing in digital accessibility.",
         "contactEmail": "contact@inclusiveweb.co",
-        "contactPhone": "555-777-8888"
+        "contactPhone": "+15557778888"
       }
     },
     {
@@ -109,7 +109,7 @@
         "name": "DataForge",
         "description": "DataForge builds analytics platforms for enterprises.",
         "contactEmail": "hr@dataforge.ai",
-        "contactPhone": "555-888-9999"
+        "contactPhone": "+15558889999"
       }
     },
     {
@@ -123,7 +123,7 @@
         "name": "InfraWorks",
         "description": "InfraWorks provides managed cloud infrastructure and DevOps services.",
         "contactEmail": "ops@infraworks.io",
-        "contactPhone": "555-999-0000"
+        "contactPhone": "+15559990000"
       }
     },
     {
@@ -137,7 +137,7 @@
         "name": "LaunchPad Co.",
         "description": "LaunchPad helps startups go from idea to scalable product.",
         "contactEmail": "pm-hiring@launchpad.co",
-        "contactPhone": "555-000-1111"
+        "contactPhone": "+15550001111"
       }
     }
   ]
